@@ -1,6 +1,7 @@
 import { IonButton, setupIonicReact, useIonToast } from '@ionic/react';
 
 import '@ionic/react/css/core.css';
+import './theme/variables.css';
 
 setupIonicReact();
 
