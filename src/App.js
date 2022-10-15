@@ -1,4 +1,5 @@
-import { IonButton, setupIonicReact, useIonToast } from '@ionic/react';
+import { IonButton, IonIcon, setupIonicReact, useIonToast } from '@ionic/react';
+import { play as playIcon } from 'ionicons/icons';
 
 import '@ionic/react/css/core.css';
 import './theme/variables.css';
@@ -22,6 +23,7 @@ function App() {
       </header>
       <main>
         <IonButton onClick={handleClick}>
+          <IonIcon icon={playIcon} slot="start" />
           Click Me
         </IonButton>
       </main>
